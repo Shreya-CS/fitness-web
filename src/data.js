@@ -117,4 +117,49 @@ export const faqs = [
         question: "What are the timings the gym will be open?",
         answer: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
     }
-]   
+]
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar1.jpg")
+    },
+    {
+        id: 2,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar2.jpg")
+    },
+    {
+        id: 3,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar3.jpg")
+    },
+    {
+        id: 4,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar4.jpg")
+    },
+    {
+        id: 5,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar5.jpg")
+    },
+    {
+        id: 6,
+        name: "Name1",
+        quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+        job: "Student",
+        avatar: require("./images/avatar6.jpg")
+    }
+]

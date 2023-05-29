@@ -124,7 +124,7 @@ section {
 
 .section__head span {
     background-color: var(--color-gray-500);
-    padding: 0.5rem 0.8rem;
+    padding: 0.15rem 0.8rem;
     border-radius: 1rem;
     color: var(--color-secondary);
     font-size: 1.5rem;
