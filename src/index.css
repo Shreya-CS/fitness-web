@@ -37,7 +37,6 @@ body {
     background-color: var(--color-gray-600);
     color: var(--color-white);
     font-family: 'Montserrat', sans-serif;
-    line-height: 1.7;
     overflow-x: hidden;
 }
 
@@ -54,6 +53,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     margin-inline: auto;
+
 }
 
 h1,
@@ -62,10 +62,16 @@ h4,
 h5 {
     line-height: 1.2;
     color: var(--color-gray-100);
+    line-height: 1.7;
 }
 
 h1 {
     font-size: 3rem;
+    line-height: 1.7;
+}
+
+p {
+    line-height: 2;
 }
 
 a {
@@ -112,9 +118,7 @@ a {
 }
 
 
-section {
-    margin-top: 3rem;
-}
+
 
 .section__head {
     display: flex;
@@ -170,4 +174,33 @@ section {
     margin-top: 0.8rem;
     display: block;
     font-weight: 300;
+}
+
+/*-------media queires (medium screen)-------*/
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/*-------media queires (small screen)-------*/
+
+@media screen and (max-width:600px) {
+    h1 {
+        font-size: 2.2rem;
+        line-height: 1.3;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
 }
