@@ -1,5 +1,4 @@
 import FAQ from '../../components/FAQ'
-import Footer from '../../components/Footer'
 import MainHeader from '../../components/MainHeader'
 import Program from '../../components/Program'
 import Testimonials from '../../components/Testimonials'
@@ -15,7 +14,6 @@ const Home = () => {
             <Values />
             <FAQ />
             <Testimonials />
-            <Footer />
         </>
     )
 }

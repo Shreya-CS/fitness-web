@@ -354,3 +354,67 @@ footer {
         gap: 4rem;
     }
 }
+
+@media screen and (max-width:600px) {
+    .main__header {
+        margin-top: 0;
+        padding: 9rem 0 0;
+        height: 70vh;
+    }
+
+    .main__header-image,
+    .main__header-circle {
+        display: none;
+    }
+
+    .main__header-container {
+        grid-template-columns: 1fr;
+    }
+
+    .programs__wrapper {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .programs__program {
+        width: 84%;
+        margin: 0 auto;
+    }
+
+    .values__wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .card.values__value {
+        width: 84%;
+        margin-inline: auto;
+    }
+
+    .faqs {
+        margin-top: 27rem;
+        gap: 1rem;
+    }
+
+    .testimonials {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 7rem;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer__container article {
+        align-items: center;
+    }
+
+    .footer__container article p {
+        text-align: center;
+    }
+}
